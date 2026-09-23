@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saved posts organizer</title>
+
+  <!-- PWA manifest -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <!-- Optional theme -->
+  <meta name="theme-color" content="#111827" />
+
+  <!-- Optional icons -->
+  <link rel="icon" href="/icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" sizes="192x192">
+</head>
+
+<body>
+  <h2>Add</h2>
+
+  <form>
+    <label>Link</label>
+    <input type="url" placeholder="Paste link..." required>
+
+    <button type="button">Paste</button>
+
+    <label>Category</label>
+    <select></select>
+
+    <label>New category (optional)</label>
+    <input type="text">
+
+    <label>Note (optional)</label>
+    <textarea></textarea>
+
+    <button type="button">Save link</button>
+  </form>
+
+  <h2>Library</h2>
+
+  <label>Search</label>
+  <input>
+
+  <label>Filter by category</label>
+  <select></select>
+
+  <p>No saved links yet.</p>
+  <ul></ul>
+</body>
+</html>
